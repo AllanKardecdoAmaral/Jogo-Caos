@@ -1,0 +1,36 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.fundo{
+    background-image: url("FUNDO2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.menu{
+    height: 100%;
+}
+.menu ul{
+list-style-type: none;
+padding: 0;
+text-align:center;
+}
+.menu ul li{
+    display:inline-block;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.menu ul li a{
+    background-color: rgb(70, 85, 70);
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:white;
+}
+.menu ul li a :hover{
+    background-color: rgb(rgb(68, 108, 55);
+}
