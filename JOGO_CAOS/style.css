@@ -3,11 +3,31 @@ body,html{
     margin: 0;
 }
 .fundo{
-    background-image: url("FUNDO2.png");
+    background-image: url("ambiente1.png.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.fundo img{
+    position: absolute;
+    left: 400px;
+    top: 70px;
+}
+#botao {
+    position: relative;
+    left: 570px;
+    top: -100px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(82, 38, 202);
+    background-color: black;
+    
+}
+#botao:hover{
+    color: red;
+    background-color: white;
 }
 .menu{
     height: 100%;
